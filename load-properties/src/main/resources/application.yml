@@ -1,0 +1,27 @@
+app:
+
+  servicesList:
+    - serviceId: "AB1"
+      url: "/AB1facade/service"
+    - serviceId: "AB2"
+      url: "/AB2rules/service"
+    - serviceId: "AB3"
+      url: "/AB3/service"
+      required: false
+    - serviceId: "AB4"
+      url: "/AB4health/service"
+    - serviceId: "AB5"
+      url: "/AB5health/service"
+      required: false
+    - serviceId: "AB6"
+      url: "/AB6/service"
+      required: false
+
+  servicesMap:
+    key1:
+      serviceId: "AB1"
+      url: "/AB1facade/service"
+      required: false
+    key2:
+      serviceId: "AB2"
+      url: "/AB2rules/service"
